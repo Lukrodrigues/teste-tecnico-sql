@@ -64,5 +64,9 @@ ORDER BY quantidade_vendida DESC, total_vendido DESC
 LIMIT 1;
 
 
-
+--Dúvidas:
+--clientes: Contagem de clientes distintos que compraram o produto (COUNT(DISTINCT ped.id_cliente)).
+--pedidos: Contagem de pedidos distintos nos quais o produto apareceu (COUNT(DISTINCT pv.id_pedido)).
+--ordenação é feita pela quantidade total vendida (quantidade_vendida DESC).
+--empate, o critério de desempate é o valor total vendido (total_vendido DESC).
 
